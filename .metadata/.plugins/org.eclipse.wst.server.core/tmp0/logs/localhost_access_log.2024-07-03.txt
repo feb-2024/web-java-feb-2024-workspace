@@ -1,0 +1,11 @@
+127.0.0.1 - - [03/Jul/2024:18:08:08 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [03/Jul/2024:18:08:11 +0530] "GET /HelloWebProject/HelloStaticPage.html HTTP/1.1" 200 165
+0:0:0:0:0:0:0:1 - - [03/Jul/2024:18:08:11 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+127.0.0.1 - - [03/Jul/2024:19:15:22 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [03/Jul/2024:19:15:24 +0530] "GET /HelloServletWebProject/HelloServlet HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [03/Jul/2024:19:17:41 +0530] "GET /HelloServletWebProject/HelloServlet HTTP/1.1" 200 18
+127.0.0.1 - - [03/Jul/2024:19:43:33 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [03/Jul/2024:19:43:35 +0530] "GET /HelloServletWebProject/DateServlet HTTP/1.1" 200 79
+127.0.0.1 - - [03/Jul/2024:19:45:03 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [03/Jul/2024:19:45:04 +0530] "GET /HelloServletWebProject/DateServlet HTTP/1.1" 200 79
+0:0:0:0:0:0:0:1 - - [03/Jul/2024:19:46:08 +0530] "GET /HelloServletWebProject/DateServlet HTTP/1.1" 200 79
