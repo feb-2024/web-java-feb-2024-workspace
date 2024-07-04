@@ -29,4 +29,14 @@
     <servlet-name>DateServlet</servlet-name>
     <url-pattern>/DateServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CounterServlet</display-name>
+    <servlet-name>CounterServlet</servlet-name>
+    <servlet-class>com.demo.CounterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CounterServlet</servlet-name>
+    <url-pattern>/CounterServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
