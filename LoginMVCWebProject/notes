@@ -1,0 +1,46 @@
+MVC 
+M - Model
+	- Pojo/DT(Data Transfer)/VO(Value Object)/BO(Bussiness Object)
+V - View
+	- UI/Presentation layer
+	- for web application the UI is a web page(html & JSP)
+C - Controller
+	- manager/brain
+	- we use a servlet as controller
+
+
+implicit objects of jsp
+-----------------------
+out
+request
+response
+session
+application
+and more..
+
+jsp tags category
+-------------------
+1) scriplet tags - <%   %>
+	- whenever we want to write java code in jsp file, write within a scriplet tag
+2) directive tags - <%@   %>
+	- these tags give global information about the page
+	- 3 types
+		a) page directive
+			- <%@page import="java.time.LocalDateTime"%>
+		b) include directive
+			- we can include another page in to the current jsp page
+		c) taglib directive
+			- used for custom jsp tags
+
+3) expression tags - <%=  %>
+	- this is a shortcut for <% out.println(); %>
+4) declaration tags - <%!   %>
+	- here we can declare variables and define methods in side declaration tag
+	- these are placed outside the service method(in other words class level) when converted to servlets
+5) action tags - <jsp:action   ></jsp:action>
+	- some of the jsp action tags are
+		- jsp:include
+		- jsp:forward
+		- jsp:setProperty
+		- jsp:getProperty
+		- jsp:param
