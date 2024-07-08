@@ -6,7 +6,8 @@ public class LoginDaoImpl implements LoginDao{
 
 	@Override
 	public boolean validate(UserPojo userPojo) {
-		return ("admin".equals(userPojo.getUserName()) && "admin".equals(userPojo.getPassword()));
+		return (("admin".equals(userPojo.getUserName()) && "admin".equals(userPojo.getPassword())) || 
+				("john".equals(userPojo.getUserName()) && "smith".equals(userPojo.getPassword())));
 	}
 
 }
