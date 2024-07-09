@@ -1,0 +1,33 @@
+Design pattern
+---------------
+	- is a generic repeatable solution to a frequently occurring problem in software design that is used in software engineering
+
+3 types of design pattern
+-------------------------
+	- Creational Design Pattern
+		- Singleton Pattern
+		- Factory Method Pattern
+		- Prototype Pattern
+		- Abstract Factory Pattern
+		- Builder Pattern
+
+	- Behavioural Design Pattern
+		- Observer Pattern
+		- Strategy Pattern
+		- State Pattern
+		- Command Pattern
+		- Chain of Responsibility
+		- Template Pattern
+		- Interpreter Pattern
+		- Visitor Pattern
+		- Mediator Pattern
+		- Memento Pattern
+
+	- Structural Design Pattern
+		- Adapter Pattern
+		- Bridge Pattern
+		- Composite Pattern
+		- Decorator Pattern
+		- Facade Pattern
+		- Proxy Pattern
+		- Flyweight Pattern
