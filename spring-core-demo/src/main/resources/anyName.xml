@@ -5,6 +5,29 @@
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <!-- here we configure the beans -->
-	<bean id="stud" class="mybeans.Student"></bean>
+	<bean id="stud" class="mybeans.Student">
+		<constructor-arg name="studId" value="1050"></constructor-arg>
+		<constructor-arg name="studName" value="aaa"></constructor-arg>
+		<constructor-arg name="studMark" value="80"></constructor-arg>
+	</bean>
 
+	<bean id="student" class="mybeans.Student">
+		<property name="studId" value="2020"></property>
+		<property name="studName" value="bbb"></property>
+		<property name="studMark" value="20"></property>
+	</bean>
+	
+	<bean id="address" class="mybeans.Address">
+		<constructor-arg name="addId" value="501"></constructor-arg>
+		<constructor-arg name="addCity" value="Chennai"></constructor-arg>
+		<constructor-arg name="addState" value="Tamil Nadu"></constructor-arg>
+	</bean>
+	
+	<bean id="emp" class="mybeans.Employee">
+		<property name="empId" value="2001"></property>
+		<property name="empName" value="John Smith"></property>
+		<property name="empAddress" ref="address"></property>
+		<!-- <constructor-arg name="empAddress" ref="address"></constructor-arg> -->
+		
+	</bean>
 </beans>
