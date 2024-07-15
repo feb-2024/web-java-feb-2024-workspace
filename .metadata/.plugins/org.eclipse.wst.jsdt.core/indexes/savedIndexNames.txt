@@ -6,7 +6,6 @@ INDEX VERSION 1.4+D:\Poongs\eclipse-workspace\web-java-feb-2024-workspace\.metad
 2148587634.index
 3586569626.index
 2966308366.index
-0.index
 3979802576.index
 83306379.index
 2735238493.index

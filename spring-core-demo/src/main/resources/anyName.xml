@@ -11,7 +11,7 @@
 		<constructor-arg name="studMark" value="80"></constructor-arg>
 	</bean>
 
-	<bean id="student" class="mybeans.Student">
+	<bean id="student" class="mybeans.Student" scope="prototype">
 		<property name="studId" value="2020"></property>
 		<property name="studName" value="bbb"></property>
 		<property name="studMark" value="20"></property>

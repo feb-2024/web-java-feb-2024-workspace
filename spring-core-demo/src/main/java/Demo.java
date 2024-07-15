@@ -22,6 +22,30 @@ public class Demo {
 		
 		Employee employee1 = context.getBean("emp", Employee.class);
 		System.out.println(employee1);
+		
+		// verifying singleton scope
+		System.out.println("Verifying singleton scope...");
+		Student student4 = context.getBean("stud", Student.class);
+		System.out.println("student4 : " + student4);
+		
+		Student student5 = context.getBean("stud", Student.class);
+		System.out.println("student5 : " + student5);
+		
+		student4.setStudName("TestingSingleton");
+		System.out.println("student4 : " + student4);
+		System.out.println("student5 : " + student5);
+		
+		// verifying prototype scope
+		System.out.println("Verifying prototype scope...");
+		Student student6 = context.getBean("student", Student.class);
+		System.out.println("student6 : " + student6);
+		
+		Student student7 = context.getBean("student", Student.class);
+		System.out.println("student7 : " + student7);
+		
+		student6.setStudMark(-35);
+		System.out.println("student6 : " + student6);
+		System.out.println("student7 : " + student7);
 	}
 
 }
