@@ -4,6 +4,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import mybeans.Student;
+import mybeans.Employee;
+
 
 public class Demo {
 
@@ -14,6 +16,10 @@ public class Demo {
 		ApplicationContext context = new AnnotationConfigApplicationContext("mybeans");
 		Student student2 = context.getBean("student", Student.class);
 		System.out.println(student2);
+		
+		Employee emp1 = context.getBean("employee", Employee.class);
+		System.out.println(emp1);
+
 	}
 
 }

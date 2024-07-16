@@ -1,20 +1,13 @@
 package mybeans;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Student {
-	//@Value("701")
 	private int studId;
-	//@Value("Jenifer Lopez")
 	private String studName;
-	//@Value("100")
 	private int studMark;
 	
 	public Student() {}
 
-	public Student(@Value("701") int studId, @Value("Raj Kamal") String studName, @Value("85") int studMark) {
+	public Student(int studId, String studName, int studMark) {
 		super();
 		this.studId = studId;
 		this.studName = studName;
@@ -33,17 +26,14 @@ public class Student {
 		return studMark;
 	}
 
-	//@Value("501")
 	public void setStudId(int studId) {
 		this.studId = studId;
 	}
 
-	//@Value("Raj Smith")
 	public void setStudName(String studName) {
 		this.studName = studName;
 	}
 
-	//@Value("70")
 	public void setStudMark(int studMark) {
 		this.studMark = studMark;
 	}

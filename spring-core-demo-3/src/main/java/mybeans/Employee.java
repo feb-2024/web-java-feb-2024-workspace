@@ -1,23 +1,13 @@
 package mybeans;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Employee {
-	//@Value("601")
 	private int empId;
-	//@Value("Jackie Chan")
 	private String empName;
-	
-	//@Autowired
 	private Address empAddress;
 	
 	public Employee() {}
 
-	@Autowired
-	public Employee(@Value("111") int empId, @Value("Test") String empName, Address empAddress) {
+	public Employee(int empId, String empName, Address empAddress) {
 		super();
 		this.empId = empId;
 		this.empName = empName;
@@ -44,7 +34,6 @@ public class Employee {
 		this.empName = empName;
 	}
 
-	//@Autowired
 	public void setEmpAddress(Address empAddress) {
 		this.empAddress = empAddress;
 	}

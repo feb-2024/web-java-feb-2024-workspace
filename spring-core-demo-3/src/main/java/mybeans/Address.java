@@ -1,15 +1,8 @@
 package mybeans;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Address {
-	@Value("2001")
 	private int addId;
-	@Value("Bangalore")
 	private String addCity;
-	@Value("Karnataka")
 	private String addState;
 	
 	public Address() {}
