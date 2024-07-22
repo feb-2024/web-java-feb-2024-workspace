@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="HelloWebProject" path="/HelloWebProject" reloadable="true" source="org.eclipse.jst.jee.server:HelloWebProject"/><Context docBase="HelloServletWebProject" path="/HelloServletWebProject" reloadable="true" source="org.eclipse.jst.jee.server:HelloServletWebProject"/><Context docBase="AddWebProject" path="/AddWebProject" reloadable="true" source="org.eclipse.jst.jee.server:AddWebProject"/><Context docBase="LoginWebProject" path="/LoginWebProject" reloadable="true" source="org.eclipse.jst.jee.server:LoginWebProject"/><Context docBase="LoginMVCWebProject" path="/LoginMVCWebProject" reloadable="true" source="org.eclipse.jst.jee.server:LoginMVCWebProject"/><Context docBase="spring-web-mvc-helloworld-project" path="/spring-web-mvc-helloworld-project" reloadable="true" source="org.eclipse.jst.jee.server:spring-web-mvc-helloworld-project"/></Host>
+      <Context docBase="spring-web-mvc-login-project" path="/spring-web-mvc-login-project" reloadable="true" source="org.eclipse.jst.jee.server:spring-web-mvc-login-project"/></Host>
     </Engine>
   </Service>
 </Server>
