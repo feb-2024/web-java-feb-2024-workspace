@@ -10,4 +10,6 @@ public class HelloRestController {
 	public String sayHello() {
 		return "Hello everyone!";
 	}
+	
+	
 }
