@@ -13,4 +13,6 @@ public class UserRestController {
 		UserPojo userPojo = new UserPojo(5001, "Will Smith", "Atlanta");
 		return userPojo;
 	}
+	
+	
 }
