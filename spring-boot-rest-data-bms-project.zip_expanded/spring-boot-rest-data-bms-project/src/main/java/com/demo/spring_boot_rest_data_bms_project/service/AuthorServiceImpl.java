@@ -35,6 +35,7 @@ public class AuthorServiceImpl implements AuthorService{
 				allBooksPojo.add(eachBookPojo);
 			}
 			eachAuthorPojo.setAllBooks(allBooksPojo);
+			allAuthorsPojo.add(eachAuthorPojo);
 		}
 		return allAuthorsPojo;
 	}
